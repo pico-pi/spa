@@ -26,4 +26,11 @@ network={
 
 
 #### Once Pi is up and running :arrow_forward:
+ping raspberrypi.local
+ssh pi@raspberrypi.local
 sudo raspi-config
+hostname
+Camera
+gpu
+Expand filesystem
+
