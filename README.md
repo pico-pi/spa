@@ -1,2 +1,2 @@
-# Raspberry Pi OS Lite Mods
-Short Pointless Acronym
+# Raspberry Pi OS headless
+Modifications to the standard R Pi OS
