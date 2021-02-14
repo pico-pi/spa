@@ -1,4 +1,5 @@
-## Modifications to the standard Raspberry Pi Lite OS
+## Raspberry Pi Lite OS Mods
+After creating the sd image, but before 1st start
 
 ### Enable SSH
 sudo touch boot/ssh
