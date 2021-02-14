@@ -1,10 +1,10 @@
 ## Raspberry Pi Lite OS Mods
-After creating the sd image, but before 1st start
+After creating the :floppy_disk: sd image, but before 1st start
 
-### Enable SSH
+#### Enable SSH
 sudo touch boot/ssh
 
-### Configure Wifi
+#### Configure Wifi
 sudo nano etc/wpa_supplicant/wpa_supplicant.conf
 ```
 country=FR
@@ -22,5 +22,8 @@ network={
     key_mgmt=WPA-PSK
     priority=2
 }
-
 ```
+
+
+#### Once Pi is up and running :arrow_forward:
+sudo raspi-config
