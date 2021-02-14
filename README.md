@@ -29,8 +29,8 @@ network={
 ping raspberrypi.local
 ssh pi@raspberrypi.local
 sudo raspi-config
-hostname
-Camera
-gpu
-Expand filesystem
+-hostname
+-Camera
+-gpu
+-Expand filesystem
 
