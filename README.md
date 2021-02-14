@@ -1,4 +1,4 @@
-## Raspberry Pi Lite OS Mods
+## Raspberry Pi Lite OS mods
 After creating the :floppy_disk: sd image, but before 1st start
 
 #### Enable SSH
@@ -27,10 +27,12 @@ network={
 
 #### Once Pi is up and running :arrow_forward:
 ping raspberrypi.local
+
 ssh pi@raspberrypi.local
+
 sudo raspi-config
--hostname
--Camera
--gpu
--Expand filesystem
+* hostname
+* Camera
+* gpu
+* Expand filesystem
 
