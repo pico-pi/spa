@@ -36,6 +36,13 @@ Next insert the SD card and boot the Pi. Once it's up and running, locate using 
 * GPU memory split allocate 64MB
 * Expand filesystem on reboot
 
+#### Add new user and remove pi account 
+>sudo adduser donald  
+>sudo usermod -a -G adm,dialout,cdrom,sudo,audio,video,plugdev,games,users,input,netdev,gpio,i2c,spi donald  
+Logout and then log back in with new account  
+>sudo deluser -remove-home pi
+
+
 #### Remove bloat
 >sudo apt-get remove -purge
 
