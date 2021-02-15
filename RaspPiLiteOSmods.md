@@ -68,5 +68,5 @@ UsePAM no
 ```
 
 #### Remove bloat
->sudo apt-get remove -purge
+>sudo apt-get remove -purge bluez bluez-firmware pi-bluetooth trigger-happy
 
