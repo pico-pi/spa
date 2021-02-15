@@ -50,11 +50,11 @@ Logout and then log back in with new account
 On the PC
 >ssh-keygen
 
->ssh-copy-id donald@hostname.local
+>ssh-copy-id donald@ hostname.local
 
 Now you should be able to login without a password
 
->ssh donald@hostname.local
+>ssh donald@ hostname.local
 
 Disable password logins
 
