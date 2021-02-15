@@ -33,7 +33,7 @@ Next insert the SD card and boot the Pi. Once it's up and running, locate using 
 >sudo raspi-config
 * Change hostname
 * Enable camera
-* gpu allocate 64MB
+* GPU memory split allocate 64MB
 * Expand filesystem on reboot
 
 #### Remove bloat
